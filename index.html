@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <style>
+        *{
+            background-color:whitesmoke;
+        }
+        #logo{
+            font-family: cursive;
+            font-style: initial;
+            margin-left: 100px;
+            font-size: 40px;
+            
+        }
+        #location{
+            font-size: 20px;
+            border: 2px solid black;
+            padding-right: 50px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-left: 20px;
+        }
+        
+        #login{
+            padding-right: 20px;
+            margin-left: 200px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 20px;
+            
+        }
+       
+        #signup{
+            padding-right: 20px;
+            margin-left: 50px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 20px;
+            text-decoration:none;
+
+        }
+        #delivery{
+            margin-left: 100px;
+        }
+        #delivery1
+        {
+            margin-left: 10px;
+            margin-top: 100px;
+            font-size: 25px;
+            font-family: 'Times New Roman', Times, serif;
+            color: rebeccapurple;
+        }
+        .filters{
+            border: 2px solid black;
+            margin-left: 100px;
+            margin-top: 20px;
+            
+            padding-left: 30px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        h1{
+            margin-left: 90px;
+
+        }
+        .dishes{
+            margin-left: 90px;
+
+
+        }
+        #dish *{
+            background-color: lavender;
+        }
+        
+       
+    </style>
+
+</head>
+<body>
+    <div></div>
+    <span id="logo">Zomato</span>
+    <span ><select id="location" heigth="150"> <option >select Location</option><option>Bengaluru</option><option> Hyderabad</option></select></span>
+    <span><select id="location" heigth="150" width="200"> <option >select restrarent</option><option>meghana foods</option><option> charminar house</option></select></span>
+    <span><button id="login"><a href="#">login</a></button></span>
+    <span><button id="signup"><a href="#">Sign Up</a></button></span>
+</div>
+<br>
+<br><br>
+<br>
+  <div>
+<span><img  id="delivery" src="zomato.jpg" width="90" height="90"></span>
+<span id="delivery1">Delivery</span>
+<span><img  id="delivery"src="DinningOut.jpg" height="90" width="90"></span>
+<span id="delivery1">Dining Out</span>
+<span><img id="delivery"src="beer.jpg" height="90" width="90"></span>
+<span id="delivery1">NightLife</span>
+</div> 
+<br>
+<br>
+<div>
+    <a href="#"><input class="filters"type="text" size=10; height="20%" placeholder="filters"></a>
+    <input class="filters" type="text" size="10" heigth="150" placeholder="Rating:4.0+">
+    <input class="filters"type="text" size=10; placeholder="Pure Veg">
+    <input  class="filters"type="text" size=10; placeholder="Cuisines">
+</div>
+<br>
+<br>
+<div id="dish">
+   <h1>Inspiration for your first order</h1><br>
+    <a class="dishes"href="Biryani.html"><img src="Biryani2.jpg" height="150" width="200"></a>
+    <a class="dishes" href="Pizza.html"><img src="Pizza2.jpg" height="150" width="200"></a>
+    <a class="dishes" href="Chicken.html"><img src="chicken.jpg" height="150" width="200"></a>
+    <a  class="dishes"href="Burger.html"><img src="Burger.jpg" height="150" width="200"></a>
+    <a class ="dishes"href="Thali.html"><img src="Thali.jpg" height="150" width="200"></a>
+</div>
+<br>
+<div style="font-family: cursive; font-size: 23px;">
+    <span style="margin-left: 150px" >Biryani</span>
+    <span style="margin-left: 200px;">Pizza</span>
+    <span style="margin-left: 250px;">Chiken</span>
+    <span style="margin-left: 220px;">Burger</span>
+    <span style="margin-left: 200px;" >Thali</span>
+</div>
+<br>
+<br>
+
+    
+    <div id="dish">
+        <h1 >Top brands for you</h1>
+        <br>
+        <img style=" margin-left: 100px;"src="Megana2.jpg" height="150" width="150">
+        <img style ="margin-left: 100px;"src="Empire.jpg" height="150" width="150">
+        <img style ="margin-left: 100px;"src="BurgerKing.jpg" height="150" width="150">
+        <img style="margin-left: 100px;" src="mcdelivery.jpg" height="150" width="150">
+        <img style="margin-left: 100px;"src="freshmenu.jpg" height="150" width="150">
+        <img style="margin-left: 70px;"src="truffles.jpg" height="150" width="150">
+
+
+    </div>
+    <br>
+    <br>
+    <div style="font-family: cursive; font-size: 23px;">
+        <span style="margin-left: 100px" >MeghanaFoods</span>
+        <span style="margin-left: 120px;">Empire</span>
+        <span style="margin-left: 150px;">BurgerKing</span>
+        <span style="margin-left: 150px;">MCdonalds</span>
+        <span style="margin-left: 120px;" >FreshMenu</span>
+        <span style="margin-left: 120px;" >Truffles</span>
+    </div>
+</body>
+
+</html>
